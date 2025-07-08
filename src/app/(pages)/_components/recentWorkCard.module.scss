@@ -1,0 +1,64 @@
+// Card container
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  max-width: 340px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
+  }
+}
+
+.card img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+  object-fit: cover;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: #444;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0.5rem 0 0.7rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+}
+
+.card a {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #4b2067;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #6d2fa6;
+  }
+}
+
+.card p:first-child {
+  font-size: 0.95rem;
+  color: #7c4dff;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
