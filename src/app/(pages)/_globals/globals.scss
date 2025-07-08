@@ -17,11 +17,9 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #332950 0%, #3c257e 50%, #322d41 100%);
+  /* You can adjust the angle and stops as needed */
 }
 
 * {

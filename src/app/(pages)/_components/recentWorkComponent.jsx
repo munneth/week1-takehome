@@ -12,28 +12,28 @@ export default function RecentWorkComponent() {
       <div className={styles.grid}>
         <RecentWorkCard
           quarter="Q1 2025"
-          imgPath="/images/recentWork/q1.png"
+          imgPath="/5caa0c870a4a04b249e5d5292f19a17ac8ac6edd.png"
           title="Recent Work"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           link="https://www.google.com"
         />
         <RecentWorkCard
           quarter="Q1 2025"
-          imgPath="/images/recentWork/q1.png"
+          imgPath="/topRight.png"
           title="Recent Work"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           link="https://www.google.com"
         />
         <RecentWorkCard
           quarter="Q1 2025"
-          imgPath="/images/recentWork/q1.png"
+          imgPath="/bottomLeft.png"
           title="Recent Work"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           link="https://www.google.com"
         />
         <RecentWorkCard
           quarter="Q1 2025"
-          imgPath="/images/recentWork/q1.png"
+          imgPath="/Frame 1749.png"
           title="Recent Work"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           link="https://www.google.com"
