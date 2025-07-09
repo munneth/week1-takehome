@@ -18,15 +18,14 @@ export default function Home() {
       <div className={styles.gradientSection}>
         <div className={styles.heroImageWrapper}>
           <Image
-            src="/Frame 1749.png"
+            src="/design-home 1.png"
             alt="Hero"
-            width={600}
-            height={250}
+            width={596.4}
+            height={298.2}
             className={styles.heroImage}
             priority
           />
         </div>
-        {/* Pen icon above Recent Work */}
         <div className={styles.penWrapper}>
           <Image
             src="/Pen.svg"
