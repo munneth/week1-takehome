@@ -42,6 +42,9 @@ export default function Home() {
         <div className={styles.bottomSection}>
           <RecentWorkComponent />
         </div>
+        <div>
+          <p className={styles.andMore}>AND MORE...</p>
+        </div>
       </div>
     </div>
   );
