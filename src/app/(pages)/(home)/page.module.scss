@@ -245,7 +245,7 @@ a.secondary {
 }
 
 .gradientSection {
-  background: linear-gradient(90deg, #604e93 0%, #3a1c71 100%);
+  background: radial-gradient(ellipse at 60% 40%, #604e93 0%, #2d2346 80%);
   min-height: calc(100vh - 500px);
   width: 100%;
   display: flex;
@@ -253,9 +253,6 @@ a.secondary {
   align-items: center;
   position: relative;
   padding-bottom: 4rem;
-  @include phone {
-    padding-bottom: 2rem;
-  }
 }
 
 .bottomSection {
