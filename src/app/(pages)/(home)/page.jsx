@@ -14,8 +14,8 @@ export default function Home() {
           positive social impact
         </h1>
       </div>
-      {/* Bottom Section (purple) */}
-      <div className={styles.bottomSection}>
+      {/* Gradient Section (purple) */}
+      <div className={styles.gradientSection}>
         <div className={styles.heroImageWrapper}>
           <Image
             src="/Frame 1749.png"
@@ -40,7 +40,9 @@ export default function Home() {
         <p className={styles.subtitle}>
           Transforming ideas into incredible realities is what we do best
         </p>
-        <RecentWorkComponent />
+        <div className={styles.bottomSection}>
+          <RecentWorkComponent />
+        </div>
       </div>
     </div>
   );
