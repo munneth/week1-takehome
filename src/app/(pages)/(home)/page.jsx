@@ -66,6 +66,7 @@ export default function Home() {
             fontSize: "1.125rem",
             lineHeight: "100%",
             letterSpacing: "0%",
+            marginTop: "2rem",
           }}
         >
           AND MORE...
