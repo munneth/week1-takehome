@@ -160,14 +160,88 @@ a.secondary {
 
 @media (prefers-color-scheme: dark) {
   .logo {
-    filter: invert();
+    filter: invert(1);
   }
 }
 
-.pen {
-  align-self: center;
-  justify-self: center;
+.penWrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.pen {
+  display: block;
+  margin: 0 auto;
+}
+
+.subheading {
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.subtitle {
+  font-family: Inter, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #d0d0d0;
+}
+
+.splitBgWrapper {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(to bottom, #fff 0 45%, #604e93 45% 100%);
+  overflow-x: hidden;
+}
+
+.topSection {
+  background: #fff;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission {
+  font-family: Inter, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.bottomSection {
+  background: #604e93;
+  min-height: 60vh;
+  padding: 0 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.heroImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -80px;
+  margin-bottom: -40px;
+}
+
+.heroImage {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  background: #fff;
 }
