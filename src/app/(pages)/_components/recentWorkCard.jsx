@@ -1,4 +1,5 @@
 import styles from "./recentWorkCard.module.scss";
+import Link from "next/link";
 
 export default function RecentWorkCard({
   quarter,
@@ -20,9 +21,9 @@ export default function RecentWorkCard({
       />
       <h3>{title}</h3>
       <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <Link href={link} target="_blank" rel="noopener noreferrer">
         VISIT SITE
-      </a>
+      </Link>
     </div>
   );
 }
