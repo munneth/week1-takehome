@@ -10,7 +10,14 @@ export default function RecentWorkCard({
   return (
     <div className={styles.card}>
       <p>{quarter}</p>
-      <img src={imgPath} alt={title} />
+      <img
+        src={imgPath}
+        alt={title}
+        style={{
+          backgroundColor:
+            imgPath === "/bottomLeft.png" ? "white" : "transparent",
+        }}
+      />
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">

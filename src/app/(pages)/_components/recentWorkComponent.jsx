@@ -4,11 +4,6 @@ import RecentWorkCard from "./recentWorkCard";
 export default function RecentWorkComponent() {
   return (
     <>
-      <div>
-        <img src="/images/recentWork/recentWork.png" alt="Recent Work" />
-        <h2>Recent Work</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
       <div className={styles.grid}>
         <RecentWorkCard
           quarter="Q1 2025"
