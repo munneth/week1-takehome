@@ -15,18 +15,19 @@ export default function Home() {
         }}
       >
         <div>
-          <Image src="/pen.svg" alt="hero" width={80} height={80} />
+          <Image src="/pen.svg" alt="hero" width={50} height={50} />
         </div>
         <div>
           <h1
             style={{
-              fontFamily: "Inter",
+              fontFamily: "Inter !important",
               fontWeight: 700,
-              fontStyle: "normal",
+              fontStyle: "bold",
               fontSize: "3.25rem",
               lineHeight: "3.625rem",
               letterSpacing: "0%",
               verticalAlign: "middle",
+              marginBottom: "3rem",
             }}
           >
             Recent Work
@@ -42,6 +43,7 @@ export default function Home() {
               lineHeight: "100%",
               letterSpacing: "0%",
               verticalAlign: "middle",
+              marginBottom: "2rem",
             }}
           >
             Transforming ideas into incredible realities is what we do best
