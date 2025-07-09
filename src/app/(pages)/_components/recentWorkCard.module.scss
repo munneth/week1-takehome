@@ -1,3 +1,5 @@
+@import "../_globals/mixins";
+
 // Card container
 .card {
   background: #4e3a85;
@@ -6,6 +8,8 @@
 
   width: 36.438rem;
   max-height: 42.063rem;
+  max-width: 100%;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
@@ -15,6 +19,13 @@
   &:hover {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
   }
+
+  @include phone {
+    width: 100%;
+    max-width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .card img {
@@ -23,6 +34,12 @@
   border-radius: 12px;
   margin-bottom: 1.2rem;
   object-fit: cover;
+
+  @include phone {
+    width: 100%;
+    height: auto;
+    max-width: 95vw;
+  }
 }
 
 .card p {
@@ -65,6 +82,16 @@
   text-align: left;
   font-family: Inter, sans-serif;
   align-self: center;
+
+  @include phone {
+    width: 100%;
+    max-width: 95vw;
+    display: block;
+    text-align: center;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box;
+  }
 
   &:hover {
     background: #6d2fa6;

@@ -1,11 +1,11 @@
+@import "../_globals/mixins";
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  row-gap: 2rem; // or whatever you want
-  column-gap: 2rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @include phone {
+    grid-template-columns: 1fr;
+  }
 }
