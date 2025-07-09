@@ -9,7 +9,7 @@ export default function RecentWorkCard({
 }) {
   return (
     <div className={styles.card}>
-      <p>{quarter}</p>
+      <p className={styles.quarter}>{quarter}</p>
       <img
         src={imgPath}
         alt={title}

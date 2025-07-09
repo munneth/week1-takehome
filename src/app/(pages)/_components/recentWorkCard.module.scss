@@ -27,10 +27,9 @@
 
 .card p {
   margin: 0.5rem 0;
-  color: #444;
   font-size: 1rem;
   text-align: center;
-  color: white;
+  color: white !important;
   padding: 0.5rem;
 }
 
@@ -62,9 +61,14 @@
   }
 }
 
-.card p:first-child {
-  font-size: 0.95rem;
-  color: #7c4dff;
+.quarter {
+  text-align: left !important;
+  font-size: 1.25rem;
   font-weight: 500;
+  color: white !important;
   margin-bottom: 0.7rem;
+  width: 100%;
+  align-self: flex-start !important;
+  padding-left: 3rem !important;
+  box-sizing: border-box;
 }
