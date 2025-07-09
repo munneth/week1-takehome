@@ -30,8 +30,8 @@ export default function Home() {
           <Image
             src="/Pen.svg"
             alt="Pen Icon"
-            width={80}
-            height={80}
+            width={50}
+            height={50}
             className={styles.pen}
           />
         </div>

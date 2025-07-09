@@ -8,7 +8,7 @@ const cards = [
     title: "IELC Tutoring",
     description:
       "Website and brand identity project for the Interactive Elementary Learning Center to boost credibility and increase participation in their free 7-week summer program.",
-    link: "https://www.google.com",
+    link: "https://www.ielctutoring.com/",
   },
   {
     quarter: "FALL/WINTER 2023",
@@ -16,7 +16,7 @@ const cards = [
     title: "Bloom and Vine",
     description:
       "Website project for Bloom and Vine a boutique floral design studio located in Northern California. Bloom and Vine strives to make every event unforgettable.",
-    link: "https://www.google.com",
+    link: "https://www.bloomandvine.net/",
   },
   {
     quarter: "WINTER/SPRING 2022",
@@ -24,7 +24,7 @@ const cards = [
     title: "New Vietnam Studies Initiative",
     description:
       "We developed the website for NVSI, promoting research and collaboration in fields related to contemporary Vietnam's economic, political, and cultural development.",
-    link: "https://www.google.com",
+    link: "https://newvietnam.ucdavis.edu/",
   },
   {
     quarter: "FALL/WINTER 2021",
@@ -32,7 +32,7 @@ const cards = [
     title: "ONELOOP",
     description:
       "Oneloop is a team of graduate and undergraduate students at UCD. They design and build a Hyperloop pod to compete in SpaceX's annual Hyperloop competition.",
-    link: "https://www.google.com",
+    link: "https://davishyperloop.com/",
   },
 ];
 
