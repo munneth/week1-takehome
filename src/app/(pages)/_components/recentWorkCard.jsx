@@ -19,6 +19,7 @@ export default function RecentWorkCard({
             imgPath === "/bottomLeft.png" ? "white" : "transparent",
         }}
       />
+      <hr className={styles.cardDivider} />
       <h3>{title}</h3>
       <p>{description}</p>
       <Link href={link} target="_blank" rel="noopener noreferrer">
